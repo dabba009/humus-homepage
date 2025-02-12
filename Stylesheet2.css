@@ -52,7 +52,7 @@ div#container {
         div.brown-box {
             background-color: rosybrown;
             color: black;
-            font-size:11px;
+            font-size: 11px;
             border-radius: 15px;
             margin: 15px 10px 70px;
             padding: 20px;
@@ -60,18 +60,19 @@ div#container {
 
 
             nav {
-                float:left;
+                float: left;
                 width: 25%;
+
                 a {
                     border-bottom: 1px solid black;
                     display: block;
-                    color:black;
+                    color: black;
                     text-transform: uppercase;
                     text-decoration: none;
                     /*margin:0 0 10px 0;*/
                     padding: 15px 0 15px 20px;
 
-                    &:hover{
+                    &:hover {
                         background-color: brown;
                         color: white;
 
@@ -83,15 +84,41 @@ div#container {
                 float: right;
                 background-color: white;
                 padding: 10px;
+                width: 65%;
+
+                h2 {
+                    color: darkolivegreen;
+                    border-bottom: 2px dotted red;
+                    font-weight: normal;
+                    text-transform: uppercase;
+
+                }
+
+                p {
+                    font-size: 12px;
+
+                    span {
+                       font-weight: bold;
+                       font-size:110%;
+                    }
+                }
+
+
+                }
+
+
             }
+
         }
     }
 
-    footer {
-        background-color: darkolivegreen;
-        color: white;
-        font-size: 10px;
-        text-align: center;
-        padding: 8px;
-    }
+
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 8px;
 }
+
