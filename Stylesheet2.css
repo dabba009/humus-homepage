@@ -75,7 +75,6 @@ div#container {
                     &:hover {
                         background-color: brown;
                         color: white;
-
                     }
                 }
             }
@@ -91,7 +90,6 @@ div#container {
                     border-bottom: 2px dotted red;
                     font-weight: normal;
                     text-transform: uppercase;
-
                 }
 
                 p {
@@ -103,15 +101,22 @@ div#container {
                     }
                 }
 
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: darkred;
+                    font: 15px arial;
+                    float: right;
 
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
 
-
+                }
             }
-
         }
     }
-
 
 
 footer {
